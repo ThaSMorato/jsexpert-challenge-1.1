@@ -80,4 +80,8 @@ URLs Úteis ao desafio:
 
 3. Coloque as instruções de como configurar e executar seu projeto e os testes no README.md (não se esqueça do coverage com o `nyc`).
 
-4. Envie o link no canal `#desafios-javascript-expert` da nossa comunidade no discord.
+4. Envie o link no canal `#desafios-jsexpert` da nossa comunidade no discord.
+
+## Até quando?
+
+Se você está pegando esse desafio na estréia, corre lá e envia pra gente até *Quarta-feira, 10 de novembro de 2021 (10/11/2021)*!
