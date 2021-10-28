@@ -28,6 +28,7 @@ Deve retornar um array com 3 pokemóns aleatórios, contendo seus respectivos `n
 ### Extras
 
 * [ ] TDD e BDD, será que rola? Acho que vale a tentativa!
+* [ ] Que tal consumir a API sem usar libs externas? o módulo `https` do node pode ser bem interessante!
 
 ## Dicas
 
@@ -71,6 +72,19 @@ project
 URLs Úteis ao desafio:
 - https://pokeapi.co/api/v2/pokemon
 - https://pokeapi.co/api/v2/pokemon/7
+
+### Checklist features
+
+- Web API
+  * [ ] Deve ter uma rota raiz usada como _fallback_.
+  * [ ] Deve ter uma rota de `/team`, onde: 
+    * [ ] Deve consumir a PokeAPI e selecionar 3 pokemóns aleatórios
+    * [ ] Deve consumir a PokeAPI para obter mais informações sobre os pokemóns escolhidos
+    * [ ] Deve retornar um objeto JSON conetendo um array com 3 pokemóns, cada um com seus respectivos `name (String)` e `moves (String[])`
+
+- Testes
+  * [ ] Deve ter cobertura de testes end-2-end e unitários
+  * [ ] 100% de code coverage
 
 ## Submissão
 
