@@ -1,10 +1,10 @@
 {
   "name": "desafio01-pokeapi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An API that gives you a random pokemon starter team",
   "main": "src/api.js",
   "scripts": {
-    "start": "node src/api.js"
+    "start": "node src/app.js"
   },
   "keywords": [
     "Tests",
@@ -17,6 +17,16 @@
     "e2e",
     "unit"
   ],
-  "author": "Wellington S. Almeida (WellsSA)",
-  "license": "MIT"
+  "author": "Thales Silva Morato (ThaSMorato)",
+  "license": "MIT",
+  "engines": {
+    "node": "^14.17.6"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4",
+    "supertest": "^6.3.3"
+  }
 }
