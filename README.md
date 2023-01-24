@@ -21,9 +21,9 @@ Deve retornar um array com 3 pokemóns aleatórios, contendo seus respectivos `n
 * [ ] mocks
 * [ ] stubs
 * [ ] spies
-* [ ] testes end-2-end que cubra todas as rotas
-* [ ] testes unitários que cubra todas as funções
-* [ ] relatório de 100% de code coverage
+* [ ] testes end-2-end
+* [ ] testes unitários
+* [ ] 100% de code coverage
 
 ### Extras
 
@@ -86,8 +86,17 @@ URLs Úteis ao desafio:
     * [ ] Deve retornar um objeto JSON contendo um array com 3 pokemóns, cada um com seus respectivos `name` do tipo String e `moves` do tipo Array de String
 
 - Testes
-  * [ ] Deve ter cobertura de testes end-2-end e unitários
-  * [ ] 100% de code coverage
+  * [ ] Deve ter testes unitários que cubra todas as funções
+  * [ ] Deve ter testes end-2-end que cubra todas as rotas
+  * [ ] Deve ter relatório de 100% de code coverage
+
+## Iniciando
+
+1. `package.json` - Troque a versão do node para a sua versão atual (`node -v`) e coloque seu nome no `Author`.
+
+2. `npm i` - Escolha as bibliotecas de testes e instale elas (como as aulas do modulo 1 são com o CommonJS e as bibliotecas `chai`, `mocha`, `sinon` e `nyc`, as configuralções de coverage já foi feita pensando nelas).
+
+3. ### Bora codar
 
 ## Submissão
 
