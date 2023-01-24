@@ -10,7 +10,7 @@ Consumindo a [PokeAPI](https://pokeapi.co/), faça uma API que retorne 3 pokemó
 ### Funcionalidades
 1. `GET /`
 
-Deve ser a rota padrão da aplicação ao tentar acessar qualquer rota inexistente. (ex.: `/hi`, `/hello`)
+Deve ser a rota padrão da aplicação ao tentar acessar qualquer rota inexistente (ex.: `/hi`, `/hello`), deve retornar uma mensagem sugerindo acessar a rota `/team`
 
 2. `GET /team`
 
@@ -21,20 +21,20 @@ Deve retornar um array com 3 pokemóns aleatórios, contendo seus respectivos `n
 * [ ] mocks
 * [ ] stubs
 * [ ] spies
-* [ ] testes end-2-end
-* [ ] testes unitários
-* [ ] 100% de code coverage
+* [ ] testes end-2-end que cubra todas as rotas
+* [ ] testes unitários que cubra todas as funções
+* [ ] relatório de 100% de code coverage
 
 ### Extras
 
 * [ ] TDD e BDD, será que rola? Acho que vale a tentativa!
+* [ ] Publicar o code coverage no github pages!
 
 ## Dicas
 
 * Sinta-se livre pra desenvolver sua solução da melhor maneira possível, a arquitetura recomendada foi pensada para ser um desafio focado em testes e não em arquitetura, teremos um desafio de arquitetura mais pra frente
-* api não precisa ser testada
 
-### Arquitetura esperada
+### Estrutura de pastas esperadas
 
 ```
 project
@@ -79,11 +79,11 @@ URLs Úteis ao desafio:
 ### Checklist features
 
 - Web API
-  * [ ] Deve ter uma rota raiz usada como _fallback_.
+  * [ ] Deve ter uma rota raiz que retorne 404 ou um hello world.
   * [ ] Deve ter uma rota de `/team`, onde:
     * [ ] Deve consumir a PokeAPI e selecionar 3 pokemóns aleatórios
     * [ ] Deve consumir a PokeAPI para obter mais informações sobre os pokemóns escolhidos
-    * [ ] Deve retornar um objeto JSON conetendo um array com 3 pokemóns, cada um com seus respectivos `name (String)` e `moves (String[])`
+    * [ ] Deve retornar um objeto JSON contendo um array com 3 pokemóns, cada um com seus respectivos `name` do tipo String e `moves` do tipo Array de String
 
 - Testes
   * [ ] Deve ter cobertura de testes end-2-end e unitários
