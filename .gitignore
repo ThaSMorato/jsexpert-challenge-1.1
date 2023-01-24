@@ -1,3 +1,4 @@
 node_modules
-coverage
+coverage/*
+!coverage/index.html
 .nyc_output
